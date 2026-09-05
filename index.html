@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="株式会社荒木石油店の中古車販売ページ。厳選した中古車を掲載しています。">
+  <title>中古車販売｜株式会社荒木石油店</title>
+  <link rel="stylesheet" href="style.css">
+
+<style>
+/* フッター調整 */
+.site-footer .footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.site-footer .footer-company {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.25;
+}
+.site-footer .footer-company strong { font-size: 16px; }
+.site-footer .footer-company small {
+  margin-top: 4px;
+  font-size: 12px;
+}
+.site-footer .footer-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px 18px;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.site-footer .footer-tel {
+  white-space: nowrap;
+  font-weight: 600;
+}
+@media (max-width: 700px) {
+  .site-footer .footer-inner {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+  }
+  .site-footer .footer-company { align-items: center; }
+  .site-footer .footer-link,
+  .site-footer .footer-tel { align-self: center; }
+}
+</style>
+
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="#top">
+      <span class="logo-small">車のことなら</span>
+      <strong>株式会社 荒木石油店</strong>
+      <span class="logo-sub">中古車販売</span>
+    </a>
+    <nav class="nav">
+      <a href="#cars">在庫車両</a>
+      <a href="#about">荒木石油店の強み</a>
+      <a href="#contact" class="nav-cta">お問い合わせ</a>
+      <a class="footer-link"  href="syaken/index.html">車検・見積もり</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="container hero-inner">
+      <div>
+        <p class="eyebrow">中古車販売 × 車検・整備・洗車</p>
+        <h1>あなたにぴったりの<br><span>1台</span>を見つけます。</h1>
+        <p class="hero-text">購入後の車検・整備まで、クルマのことをまとめておまかせください。</p>
+        <a class="button button-primary" href="#cars">掲載車両を見る</a>
+      </div>
+      <div class="hero-card">
+       
+        <div>
+          <strong>随時入れ替え・更新予定</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="cars" class="section">
+    <div class="container">
+      <div class="section-heading">
+        <p class="eyebrow">STOCK CARS</p>
+        <h2>掲載車両</h2>
+        <p>気になる車両の写真・詳細をご確認いただけます。</p>
+      </div>
+
+      <div class="car-grid">
+        <!-- 車両1 -->
+        <article class="car-card">
+          <div class="car-image"><img src="images/car01_01.jpg" alt="車両1 外観"></div>
+          <div class="car-body">
+            <p class="car-status">おすすめ</p>
+            <h3>GR86</h3>
+            <dl class="spec-mini">
+              <div><dt>年式</dt><dd>2023年</dd></div>
+              <div><dt>走行距離</dt><dd>30,000km</dd></div>
+              <div><dt>車検</dt><dd>2027年3月</dd></div>
+            </dl>
+            <div class="price-box">
+              <span>支払総額</span>
+              <strong>326万円</strong>
+            </div>
+            <a class="button button-outline" href="cars/car01.html">詳細・写真を見る</a>
+          </div>
+        </article>
+
+        <!-- 車両2 -->
+        <article class="car-card">
+          <div class="car-image"><img src="images/car02_01.jpg" alt="車両2 外観"></div>
+          <div class="car-body">
+            <p class="car-status">おすすめ</p>
+            <h3>車両名を入力</h3>
+            <dl class="spec-mini">
+              <div><dt>年式</dt><dd>202X年</dd></div>
+              <div><dt>走行距離</dt><dd>00,000km</dd></div>
+              <div><dt>車検</dt><dd>202X年X月</dd></div>
+            </dl>
+            <div class="price-box">
+              <span>支払総額</span>
+              <strong>XXX万円</strong>
+            </div>
+            <a class="button button-outline" href="cars/car02.html">詳細・写真を見る</a>
+          </div>
+        </article>
+
+        <!-- 車両3 -->
+        <article class="car-card">
+          <div class="car-image"><img src="images/car03_01.jpg" alt="車両3 外観"></div>
+          <div class="car-body">
+            <p class="car-status">おすすめ</p>
+            <h3>車両名を入力</h3>
+            <dl class="spec-mini">
+              <div><dt>年式</dt><dd>202X年</dd></div>
+              <div><dt>走行距離</dt><dd>00,000km</dd></div>
+              <div><dt>車検</dt><dd>202X年X月</dd></div>
+            </dl>
+            <div class="price-box">
+              <span>支払総額</span>
+              <strong>XXX万円</strong>
+            </div>
+            <a class="button button-outline" href="cars/car03.html">詳細・写真を見る</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section section-soft">
+    <div class="container">
+      <div class="section-heading">
+        <p class="eyebrow">WHY ARAKI</p>
+        <h2>購入後も、ずっとおまかせ。</h2>
+      </div>
+      <div class="feature-grid">
+        <div class="feature"><span>01</span><h3>車販売</h3><p>厳選した中古車をご案内。購入前のご相談もお気軽に。</p></div>
+        <div class="feature"><span>02</span><h3>車検・整備</h3><p>購入後の車検・整備まで、整備事業部でサポート。</p></div>
+        <div class="feature"><span>03</span><h3>オイル交換</h3><p>定期的なオイル交換で大切なおクルマをメンテナンス。</p></div>
+        <div class="feature"><span>04</span><h3>タイヤ交換</h3><p>タイヤの交換・点検もお気軽にご相談ください。</p></div>
+        <div class="feature"><span>05</span><h3>洗車</h3><p>給油と一緒に、日常の洗車もおまかせください。</p></div>
+        <div class="feature"><span>06</span><h3>バッテリー</h3><p>バッテリー点検・交換など、突然のトラブルにも対応。</p></div>
+        <div class="feature"><span>07</span><h3>その他アクセサリー</h3><p>カー用品・アクセサリーのご相談も承ります。</p></div>
+        <div class="feature"><span>08</span><h3>自動車保険</h3><p>自動車保険についてもお気軽にご相談ください。</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section gallery-guide">
+    <div class="container gallery-guide-inner">
+      <div>
+        <p class="eyebrow"></p>
+        
+      </div>
+      
+    </div>
+  </section>
+
+  <section id="contact" class="section contact-section">
+    <div class="container contact-grid">
+      <div>
+        <p class="eyebrow">CONTACT</p>
+        <h2>気になる車両は<br>お気軽にお問い合わせください。</h2>
+        <p>在庫確認・見積もり・来店相談など、お気軽にご連絡ください。</p>
+        <div class="contact-info">
+          <strong>株式会社 荒木石油店　自働車整備事業部</strong>
+          <span>TEL 0532-53-5510</span>
+          <span>〒440-0086 愛知県豊橋市下地町字橋口163-1</span>
+          <span>営業時間：平日・第一土曜日 8:30～17:30</span>
+        </div>
+      </div>
+
+      <form id="contactForm" class="contact-form">
+        <label>お名前<input name="name" required></label>
+        <label>メールアドレス<input type="email" name="email" required></label>
+        <label>お問い合わせ車両
+          <select name="car">
+            <option>GR86</option><option>車両2</option><option>車両3</option>
+            <option>その他・未定</option>
+          </select>
+        </label>
+        <label>お問い合わせ内容<textarea name="message" rows="6" required></textarea></label>
+        <p class="form-note">送信ボタンを押すと、お使いのメールソフトが起動します。</p>
+        <button class="button button-primary" type="submit">メールで問い合わせる</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-company">
+      <strong>株式会社 荒木石油店　自動車整備事業部</strong>
+      <small>車検・整備・カーライフサポート</small>
+    </div>
+
+    <a class="footer-link" href="https://www.araki-g.jp/" target="_blank" rel="noopener noreferrer">
+      本社ホームページ ↗
+    </a>
+
+    <span class="footer-tel">0532-53-5510</span>
+
+    <a class="footer-link" href="syaken/index.html">
+      車検・見積もり
+    </a>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
